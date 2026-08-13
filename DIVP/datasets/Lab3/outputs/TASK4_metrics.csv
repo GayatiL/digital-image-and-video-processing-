@@ -1,0 +1,13 @@
+Task,Configuration,Noise Sigma,Kernel Size,k,Laplacian,PSNR (dB),Sharpness
+Task 1,"Average 3x3, sigma=10",10.0,3.0,,,27.984,130.814
+Task 1,"Average 5x5, sigma=10",10.0,5.0,,,25.348,31.741
+Task 1,"Average 9x9, sigma=10",10.0,9.0,,,23.37,6.012
+Task 1,"Average 3x3, sigma=25",25.0,3.0,,,26.036,323.948
+Task 1,"Average 5x5, sigma=25",25.0,5.0,,,24.852,69.373
+Task 1,"Average 9x9, sigma=25",25.0,9.0,,,23.24,12.017
+Task 2,Laplacian 4-neighbor,,,,4-neighbor,22.296,735.39
+Task 2,Laplacian 8-neighbor,,,,8-neighbor,16.453,7065.593
+Task 3,High-Boost k=1,10.0,3.0,1.0,,21.763,12525.644
+Task 3,High-Boost k=1.5,10.0,3.0,1.5,,19.669,18945.398
+Task 3,High-Boost k=2,10.0,3.0,2.0,,18.039,26308.225
+Task 3,High-Boost k=3,10.0,3.0,3.0,,15.638,43205.479

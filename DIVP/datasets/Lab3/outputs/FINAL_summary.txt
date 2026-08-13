@@ -1,0 +1,10 @@
+AGV SPATIAL FILTERING LAB - FINAL SUMMARY
+===========================================
+
+Recommended averaging kernel: 3x3
+Recommended sharpening: 4-neighbor Laplacian
+Final PSNR: 23.735 dB
+Final Sharpness: 604.447
+
+Pipeline:
+Noisy Image -> Denoising -> Laplacian Sharpening -> Final Image
